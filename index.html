@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>
+        Frontend Test
+    </title>
+    <meta name="description" content="Testowanie Bibliotek">
+    <link rel="stylesheet" href="quavosh-slider.css" async>
+    <link rel="stylesheet" href="qanim.css" async>
+
+</head>
+
+<style>
+    html {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .flex_container {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <main>
+        <div class="flex_container">
+            <div class="carousel" id="slider-1">
+
+                <div class="Slides" style="background-image:url(nvidia.jpg);">
+                    <div class="numbertext">1 / 5</div>
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(radeon.jpg);">
+                    <div class="numbertext">2 / 5</div>
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(ryzen.png);">
+                    <div class="numbertext">3 / 5</div>
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(intel.jpg);">
+                    <div class="numbertext">4 / 5</div>
+                    <div class="text">Caption Four</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(razer.jpg);">
+                    <div class="numbertext">5 / 5</div>
+                    <div class="text">Caption Five</div>
+                </div>
+
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+
+                <div class="dot_box">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="flex_container">
+            <div class="fader qa_fade-right" id="slider-2">
+
+                <div class="Slides" style="background-image:url(nvidia.jpg);">
+                    <div class="numbertext">1 / 5</div>
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(radeon.jpg);">
+                    <div class="numbertext">2 / 5</div>
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(ryzen.png);">
+                    <div class="numbertext">3 / 5</div>
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(intel.jpg);">
+                    <div class="numbertext">4 / 5</div>
+                    <div class="text">Caption Four</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(razer.jpg);">
+                    <div class="numbertext">5 / 5</div>
+                    <div class="text">Caption Five</div>
+                </div>
+
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+
+                <div class="dot_box">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="flex_container">
+            <div class="rotate qa_fade-left" id="slider-3">
+
+                <div class="Slides" style="background-image:url(nvidia.jpg);">
+                    <div class="numbertext">1 / 6</div>
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(radeon.jpg);">
+                    <div class="numbertext">2 / 6</div>
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(ryzen.png);">
+                    <div class="numbertext">3 / 6</div>
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(intel.jpg);">
+                    <div class="numbertext">4 / 6</div>
+                    <div class="text">Caption Four</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(razer.jpg);">
+                    <div class="numbertext">5 / 6</div>
+                    <div class="text">Caption Five</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(radeon.jpg);">
+                    <div class="numbertext">6 / 6</div>
+                    <div class="text">Caption Six</div>
+                </div>
+
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+
+                <div class="dot_box">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="flex_container">
+            <div class="scaler qa_fade-right" id="slider-4">
+
+                <div class="Slides" style="background-image:url(nvidia.jpg);">
+                    <div class="numbertext">1 / 5</div>
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(radeon.jpg);">
+                    <div class="numbertext">2 / 5</div>
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(ryzen.png);">
+                    <div class="numbertext">3 / 5</div>
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(intel.jpg);">
+                    <div class="numbertext">4 / 5</div>
+                    <div class="text">Caption Four</div>
+                </div>
+
+                <div class="Slides" style="background-image:url(razer.jpg);">
+                    <div class="numbertext">5 / 5</div>
+                    <div class="text">Caption Five</div>
+                </div>
+
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+
+                <div class="dot_box">
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+</body>
+<footer>
+    <script type="text/javascript" src="qanim.js"></script>
+    <script type="text/javascript" src="quavosh-slider.js"></script>
+    <script>
+        window.onload = function () {
+            //put here all library functions
+            quavosh_slider(4);
+            qanim();
+        };
+    </script>
+</footer>
